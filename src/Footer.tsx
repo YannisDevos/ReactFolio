@@ -4,8 +4,17 @@ export default function Footer() {
   const footerinfos = footerdata;
 
   return (
-    <footer className="bg-gray-200 shadow-inner mt-auto p-4 md:p-10">
-      <div className="flex flex-col space-y-4 md:flex-row md:items-center md:justify-between text-gray-600">
+    <footer
+      className="text-white m-10 p-10
+  rounded-xl
+  border border-white/20
+  bg-white/10
+  backdrop-blur-md
+  shadow-lg
+  hover:backdrop-blur-lg
+  transition-all"
+    >
+      <div className="flex flex-col space-y-4 md:flex-row md:items-center md:justify-between text-white">
         <div className="text-center md:text-left mb-4 md:mb-0">
           <p>
             © {new Date().getFullYear()} Yannis Devos. Tous droits réservés.
@@ -19,7 +28,7 @@ export default function Footer() {
               href={social.content}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center space-x-1 hover:text-black transition-colors"
+              className="flex items-center space-x-1 hover:text-gray-800 transition-colors"
             >
               <span>{social.name}</span>
             </a>

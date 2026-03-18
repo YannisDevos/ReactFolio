@@ -4,7 +4,7 @@
     "title": "ReactFolio",
     "description": "Un site vitrine pour présenter mes compétences, projets et parcours.",
     "technologies": ["TypeScript", "React", "React Router", "Tailwind CSS"],
-    "image": "./assets/img/portfolio.jpg",
+    "image": "../assets/img/projects/reactfolio.png",
     "link": "/"
   },
   {

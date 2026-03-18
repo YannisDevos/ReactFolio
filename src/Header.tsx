@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export default function Header() {
   const linkcss =
-    "relative inline-block after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-black after:transition-all after:duration-300 hover:after:w-full";
+    "relative inline-block after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-white after:transition-all after:duration-300 hover:after:w-full";
 
   const activecss = "after:w-full";
   const [activeLink, setActiveLink] = useState("/");
@@ -20,7 +20,16 @@ export default function Header() {
   const formatTime = (num: number) => (num < 10 ? `0${num}` : num);
 
   return (
-    <header className="bg-gray-200 shadow-md p-5">
+    <header
+      className="text-white m-10 p-4
+  rounded-xl
+  border border-white/20
+  bg-white/10
+  backdrop-blur-md
+  shadow-lg
+  hover:backdrop-blur-lg
+  transition-all"
+    >
       <div className="w-full px-4 md:px-10 py-4 md:py-6 flex flex-col md:flex-row md:items-center">
         <div className="flex items-center justify-between w-full">
           <div className="flex items-center space-x-20">

@@ -6,7 +6,7 @@ import { HashRouter } from "react-router";
 import Footer from "./Footer";
 
 createRoot(document.querySelector("main")!).render(
-  <div className="min-h-screen bg-gray-100">
+  <div className="min-h-screen">
     <HashRouter>
       <Header />
       <Router />
