@@ -8,7 +8,7 @@ export default function Home() {
   }
 
   return (
-    <div className="min-h-screen bg-gray-100 p-10">
+    <div className="p-10">
       <div className="max-w-7xl mx-auto bg-white rounded-lg shadow-md overflow-hidden flex flex-col md:flex-row">
         <div className="w-full md:w-1/2 p-8 flex flex-col justify-center border-r border-gray-200">
           <h1 className="text-3xl font-bold text-gray-800 mb-4">

@@ -5,8 +5,10 @@ import Router from "./Router";
 import { HashRouter } from "react-router";
 
 createRoot(document.querySelector("main")!).render(
-  <HashRouter>
-    <Header />
-    <Router />
-  </HashRouter>,
+  <div className="min-h-screen bg-gray-100">
+    <HashRouter>
+      <Header />
+      <Router />
+    </HashRouter>
+  </div>,
 );
