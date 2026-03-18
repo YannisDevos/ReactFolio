@@ -15,9 +15,15 @@ export default function Footer() {
   transition-all"
     >
       <div className="flex flex-col space-y-4 md:flex-row md:items-center md:justify-between text-white">
+        <div className="  text-center md:text-left mb-4 md:mb-0">
+          <span>🇫🇷 </span>
+          <span>{footerinfos[1][0].content}</span>
+        </div>
+
         <div className="text-center md:text-left mb-4 md:mb-0">
           <p>
-            © {new Date().getFullYear()} Yannis Devos. Tous droits réservés.
+            © {new Date().getFullYear()} Yannis Devos. Conçu avec React —
+            ReactFolio.
           </p>
         </div>
 
@@ -33,10 +39,6 @@ export default function Footer() {
               <span>{social.name}</span>
             </a>
           ))}
-          <span className="flex items-center space-x-1">
-            <span>🇫🇷</span>
-            <span>{footerinfos[1][0].content}</span>
-          </span>
         </div>
       </div>
     </footer>
