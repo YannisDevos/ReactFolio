@@ -8,7 +8,6 @@ export default function Header() {
   const activecss = "after:w-full";
 
   const [activeLink, setActiveLink] = useState("/");
-  console.log(activeLink);
 
   return (
     <header className="bg-gray-200 shadow-md">
