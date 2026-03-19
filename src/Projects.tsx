@@ -29,7 +29,7 @@ export default function Projects() {
             <div
               onClick={() => handleClick(project.link)}
               key={project.id}
-              className="cursor-pointer bg-white/10 border-white/20 border rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow flex flex-col md:flex-row"
+              className="cursor-pointer backdrop-blur-2xl bg-white/5 border-white/30 border rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow flex flex-col md:flex-row"
             >
               <div className="w-full md:w-2/3 p-6 flex flex-col justify-center">
                 <h2 className="text-2xl font-semibold text-white mb-2">
@@ -40,7 +40,7 @@ export default function Projects() {
                   {project.technologies.map((tech, index) => (
                     <span
                       key={index}
-                      className="px-3 py-1 bg-gray-800 text-gray-400 rounded-full text-sm"
+                      className="px-3 py-1 bg-white/15 border border-white/30 backdrop-blur-2xl text-white rounded-full text-sm"
                     >
                       {tech}
                     </span>
@@ -48,7 +48,7 @@ export default function Projects() {
                 </div>
               </div>
 
-              <div className="w-full md:w-1/3 p-4 flex items-center justify-center bg-gray-600">
+              <div className="w-full md:w-1/3 p-4 flex items-center justify-center backdrop-blur-xl">
                 <img
                   src={`${import.meta.env.BASE_URL}${project.image}`}
                   alt={project.title}

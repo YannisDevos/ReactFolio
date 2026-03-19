@@ -23,11 +23,10 @@ export default function Header() {
     <header
       className="text-white m-10 p-4
   rounded-xl
-  border border-white/20
-  bg-white/10
-  backdrop-blur-md
+  border border-white/30
+  bg-white/5
+  backdrop-blur-2xl
   shadow-lg
-  hover:backdrop-blur-lg
   transition-all"
     >
       <div className="w-full px-4 md:px-10 py-4 md:py-6 flex flex-col md:flex-row md:items-center">

@@ -7,11 +7,10 @@ export default function Footer() {
     <footer
       className="text-white m-10 p-10
   rounded-xl
-  border border-white/20
-  bg-white/10
-  backdrop-blur-md
+  border border-white/30
+  bg-white/5
+  backdrop-blur-2xl
   shadow-lg
-  hover:backdrop-blur-lg
   transition-all"
     >
       <div className="flex flex-col space-y-4 md:flex-row md:items-center md:justify-between text-white">

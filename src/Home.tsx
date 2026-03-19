@@ -15,14 +15,14 @@ export default function Home() {
 
   return (
     <div className="pl-5 pr-5">
-      <div className="max-w-7xl mx-auto rounded-lg overflow-hidden flex flex-col md:flex-row bg-white/10 border-white/20 border">
+      <div className="backdrop-blur-2xl max-w-7xl mx-auto rounded-lg overflow-hidden flex flex-col md:flex-row bg-white/5 border-white/30 border text-white">
         <div className="w-full md:w-1/2 p-8 flex flex-col justify-center">
-          <h1 className="text-3xl font-bold text-white mb-4">
+          <h1 className="text-3xl font-bold mb-4">
             Développeur (En quête d'un stage)
           </h1>
           <br />
           <br />
-          <p className="text-lg text-white mb-6">
+          <p className="text-lg mb-6">
             J'ai {age} ans et je suis passionné par l'informatique, en
             particulier par le développement web et logiciel. <br />{" "}
             Actuellement, je suis à la recherche d'un stage à partir du 16 mars
@@ -40,13 +40,13 @@ export default function Home() {
           <div className="flex space-x-4">
             <button
               onClick={() => handleClick("/projects")}
-              className="px-6 py-2 bg-white/10 border border-white/20 text-white rounded-lg transition-all hover:scale-96"
+              className="px-6 py-2 bg-white/15 border border-white/30 rounded-lg transition-all hover:scale-96"
             >
               Mes projets
             </button>
             <button
               onClick={() => handleClick("/studies")}
-              className="px-6 py-2 bg-white/10 border border-white/20 text-white rounded-lg transition-all hover:scale-96"
+              className="px-6 py-2 bg-white/15 border border-white/30 rounded-lg transition-all hover:scale-96"
             >
               Mes études
             </button>
