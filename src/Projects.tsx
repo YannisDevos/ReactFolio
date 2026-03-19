@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import projectsData from "../assets/data/projects.json";
+import projectsData from "./assets/data/projects.json";
 
 export default function Projects() {
   const navigate = useNavigate();
@@ -50,7 +50,7 @@ export default function Projects() {
 
               <div className="w-full md:w-1/3 p-4 flex items-center justify-center bg-gray-600">
                 <img
-                  src={project.image}
+                  src={`${import.meta.env.BASE_URL}${project.image}`}
                   alt={project.title}
                   className="w-fit h-fit object-cover rounded-lg"
                 />

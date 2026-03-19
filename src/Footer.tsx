@@ -1,4 +1,4 @@
-import footerdata from "../assets/data/footer.json";
+import footerdata from "./assets/data/footer.json";
 
 export default function Footer() {
   const footerinfos = footerdata;

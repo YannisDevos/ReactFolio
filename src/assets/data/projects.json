@@ -4,7 +4,7 @@
     "title": "ReactFolio",
     "description": "Un site vitrine pour présenter mes compétences, projets et parcours.",
     "technologies": ["TypeScript", "React", "React Router", "Tailwind CSS"],
-    "image": "../assets/img/projects/reactfolio.png",
+    "image": "img/projects/reactfolio.png",
     "link": "/"
   },
   {
@@ -12,7 +12,7 @@
     "title": "MaQR",
     "description": "MaQr (Maker) est un petit projet personnel permetant de créer des QRcode personalisables (taille, couleur).",
     "technologies": ["Python", "Tkinter"],
-    "image": "../assets/img/projects/maqr.ico",
+    "image": "img/projects/maqr.ico",
     "link": "/maqr"
   },
   {
@@ -27,7 +27,7 @@
       "Java Spring",
       "PostgreSQL"
     ],
-    "image": "../assets/img/projects/toutankhascrum.png",
+    "image": "img/projects/toutankhascrum.png",
     "link": "https://toutankhascrum.betteragile.fr"
   },
   {
@@ -35,7 +35,7 @@
     "title": "Réservation en ligne (Thème Dr. Mario)",
     "description": "Site de réservation en ligne modulable via le fichier de configuration, avec création et gestion de comptes utilisateurs.",
     "technologies": ["Java Spring", "Tailwind", "PostgreSQL"],
-    "image": "../assets/img/projects/Dr_Mario_logo.png",
+    "image": "img/projects/Dr_Mario_logo.png",
     "link": "/reservation"
   },
   {
@@ -43,7 +43,7 @@
     "title": "Space.io",
     "description": "Jeu multijoueur en ligne inspiré de Agar.io, où les joueurs contrôlent une cellule dans l'espace et doivent manger des cellules plus petites pour grandir tout en évitant les cellules plus grandes.",
     "technologies": ["JavaScript", "Node.js", "Socket.io", "HTML", "CSS"],
-    "image": "../assets/img/projects/space.jpg",
+    "image": "img/projects/space.jpg",
     "link": "/spaceio"
   }
 ]

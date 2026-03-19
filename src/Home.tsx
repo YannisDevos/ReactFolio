@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router";
+import mwa from "/img/mwa.jpg";
 
 export default function Home() {
   const navigate = useNavigate();
@@ -54,7 +55,7 @@ export default function Home() {
 
         <div className="w-full md:w-1/2">
           <img
-            src="./assets/img/mwa.jpg"
+            src={mwa}
             alt="mwa.jpg"
             className="w-full h-full object-cover md:rounded-bl-full"
           />
