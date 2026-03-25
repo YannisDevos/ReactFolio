@@ -33,17 +33,54 @@
   {
     "id": 4,
     "title": "Réservation en ligne (Thème Dr. Mario)",
-    "description": "Site de réservation en ligne modulable via le fichier de configuration, avec création et gestion de comptes utilisateurs.",
-    "technologies": ["Java Spring", "Tailwind", "PostgreSQL"],
+    "description": "Site de réservation en ligne modulable via un fichier de configuration, avec création et gestion de comptes utilisateurs.",
+    "technologies": [
+      "Java Spring",
+      "Tailwind",
+      "PostgreSQL",
+      "Java Server Pages (JSP)"
+    ],
     "image": "img/projects/Dr_Mario_logo.png",
     "link": "/reservation"
   },
   {
     "id": 5,
     "title": "Space.io",
-    "description": "Jeu multijoueur en ligne inspiré de Agar.io, où les joueurs contrôlent une cellule dans l'espace et doivent manger des cellules plus petites pour grandir tout en évitant les cellules plus grandes.",
+    "description": "Jeu multijoueur sur navigateur inspiré de Agar.io, où les joueurs contrôlent une cellule dans l'espace et doivent manger des cellules plus petites pour grandir tout en évitant les cellules plus grandes.",
     "technologies": ["JavaScript", "Node.js", "Socket.io", "HTML", "CSS"],
     "image": "img/projects/space.jpg",
     "link": "/spaceio"
+  },
+  {
+    "id": 6,
+    "title": "K-Find",
+    "description": "Application développée principalement en Java permettant de visualiser les données issues d'un fichier CSV sous forme de nuage de points, avec une fonctionnalité de classification automatique basée sur l'algorithme des k plus proches voisins (KNN).",
+    "technologies": ["Java", "JavaFX", "CSS", "CSV", "Maven"],
+    "image": "img/projects/kfind.png",
+    "link": "/kfind"
+  },
+  {
+    "id": 7,
+    "title": "Campus Talk",
+    "description": "Réseau social organisé en fils de discussion, inspiré du fonctionnement de Discord, et dédié à l'univers de l'IUT.",
+    "technologies": ["Java", "JEE", "Tomcat", "PostgreSQL"],
+    "image": "img/projects/campus.png",
+    "link": "/campus"
+  },
+  {
+    "id": 8,
+    "title": "Pirattack",
+    "description": "Jeu en mode terminal au tour par tour, réalisé en utilisant la méthode agile Scrum, dont l'objectif est de conquérir un maximum d'îles grâce à des lancers de dés et à des systèmes de bonus et malus.",
+    "technologies": ["Java", "Sérialisation", "ASCII Art"],
+    "image": "img/projects/pirattack.png",
+    "link": "/pirattack"
+  },
+  {
+    "id": 9,
+    "title": "Space Of Questions",
+    "description": "Jeu ludopédagogique en mode terminal dans lequel l’utilisateur répond à des questions pour progresser, avec un nombre de vies limité, afin de faire décoller une fusée et partir à la conquête de l’espace. Plusieurs modes de jeu sont proposés : facile, moyen, difficile et mort subite. Création de compte en local (CSV) et leaderboard.",
+    "technologies": ["Java", "CSV", "ASCII Art"],
+    "image": "img/projects/soq.png",
+    "link": "/spaceofquestions"
   }
 ]

@@ -28,7 +28,7 @@ export default function Contact() {
     <div className="pl-5 pr-5">
       <div className="backdrop-blur-2xl max-w-7xl mx-auto rounded-lg overflow-hidden flex flex-col md:flex-row bg-white/5 border-white/30 border text-white">
         <div className="w-full p-8 flex flex-col justify-center">
-          <h2 className="text-2xl font-bold mb-6">Contactez-nous</h2>
+          <h2 className="text-2xl font-bold mb-6">Besoin de me contacter ?</h2>
 
           <form className="space-y-4" ref={form} onSubmit={handleSubmit}>
             <div>
