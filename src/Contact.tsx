@@ -58,16 +58,18 @@ export default function Contact() {
                 Votre message
               </label>
               <textarea
-                rows={5}
+                rows={7}
                 name="message"
                 className="w-full px-4 py-2 rounded-lg bg-white/10 border border-white/20"
                 required
               ></textarea>
             </div>
 
+            <div className="border border-white/20"></div>
+
             <button
               type="submit"
-              className="w-full bg-white/10 hover:bg-white/20 text-white py-2 px-4 rounded-lg"
+              className="w-full cursor-pointer px-6 py-2 bg-white/15 border border-white/30 rounded-lg transition-all hover:scale-96"
             >
               Envoyer
             </button>
