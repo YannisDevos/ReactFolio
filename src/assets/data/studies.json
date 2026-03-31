@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "title": "Baccalauréat Général - SI & NSI",
+    "establishment": "Jean Rostand",
+    "description": "Lycée général avec spécialités Sciences de l'Ingénieur et Numérique et Sciences Informatiques.",
+    "image": "img/studies/jr.png",
+    "link": "https://lg-jean-rostand-roubaix.59.ac-lille.fr/"
+  },
+  {
+    "id": 2,
+    "title": "BUT Informatique",
+    "establishment": "l'IUT de Lille",
+    "description": "Formation durant laquel j’ai pu réaliser plusieurs projets qui m’on permis d’acquérir de nombreuses compétences technique et professionel.",
+    "image": "img/studies/iut.png",
+    "link": "https://iut.univ-lille.fr/"
+  }
+]
