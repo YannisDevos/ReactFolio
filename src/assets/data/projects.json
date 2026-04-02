@@ -4,16 +4,20 @@
     "title": "ReactFolio",
     "description": "Un site vitrine pour présenter mes compétences, projets et parcours.",
     "technologies": ["TypeScript", "React", "React Router", "Tailwind CSS"],
-    "image": "img/projects/reactfolio.png",
-    "link": "/"
+    "image": "reactfolio.png",
+    "demo": ["1.png", "2.png", "3.png"],
+    "dirName": "reactfolio",
+    "gh": "https://github.com/YannisDevos/ReactFolio"
   },
   {
     "id": 2,
     "title": "MaQR",
     "description": "MaQr (Maker) est un petit projet personnel permetant de créer des QRcode personalisables (taille, couleur).",
     "technologies": ["Python", "Tkinter"],
-    "image": "img/projects/maqr.ico",
-    "link": "/maqr"
+    "image": "maqr.ico",
+    "demo": ["1.png", "2.png", "3.png"],
+    "dirName": "maqr",
+    "gh": "https://github.com/YannisDevos/QRCode-Maker"
   },
   {
     "id": 3,
@@ -27,7 +31,8 @@
       "Java Spring",
       "PostgreSQL"
     ],
-    "image": "img/projects/toutankhascrum.png",
+    "image": "toutankhascrum.png",
+    "dirName": "toutankhascrum",
     "link": "https://toutankhascrum.betteragile.fr"
   },
   {
@@ -40,47 +45,68 @@
       "PostgreSQL",
       "Java Server Pages (JSP)"
     ],
-    "image": "img/projects/Dr_Mario_logo.png",
-    "link": "/reservation"
+    "image": "Dr_Mario_logo.png",
+    "demo": ["1.png", "2.png", "3.png", "4.png"],
+    "dirName": "reservation",
+    "gh": "https://github.com/YannisDevos/drMarioReservation"
   },
   {
     "id": 5,
     "title": "Space.io",
     "description": "Jeu multijoueur sur navigateur inspiré de Agar.io, où les joueurs contrôlent une cellule dans l'espace et doivent manger des cellules plus petites pour grandir tout en évitant les cellules plus grandes.",
     "technologies": ["JavaScript", "Node.js", "Socket.io", "HTML", "CSS"],
-    "image": "img/projects/space.jpg",
-    "link": "/spaceio"
+    "image": "space.jpg",
+    "demo": ["1.png", "2.png", "3.png", "4.png"],
+    "dirName": "spaceio",
+    "gh": "https://github.com/YannisDevos/Space.io"
   },
   {
     "id": 6,
     "title": "K-Find",
     "description": "Application développée principalement en Java permettant de visualiser les données issues d'un fichier CSV sous forme de nuage de points, avec une fonctionnalité de classification automatique basée sur l'algorithme des k plus proches voisins (KNN).",
     "technologies": ["Java", "JavaFX", "CSS", "CSV", "Maven"],
-    "image": "img/projects/kfind.png",
-    "link": "/kfind"
+    "image": "kfind.png",
+    "demo": ["1.png", "2.png", "3.png"],
+    "dirName": "kfind",
+    "gh": "https://github.com/YannisDevos/K-find"
   },
   {
     "id": 7,
     "title": "Campus Talk",
     "description": "Réseau social organisé en fils de discussion, inspiré du fonctionnement de Discord, et dédié à l'univers de l'IUT.",
     "technologies": ["Java", "JEE", "Tomcat", "PostgreSQL"],
-    "image": "img/projects/campus.png",
-    "link": "/campus"
+    "image": "campus.png",
+    "demo": ["1.png", "2.png", "3.png"],
+    "dirName": "campustalk",
+    "gh": "https://github.com/YannisDevos/Campus-Talk"
   },
   {
     "id": 8,
     "title": "Pirattack",
     "description": "Jeu en mode terminal au tour par tour, réalisé en utilisant la méthode agile Scrum, dont l'objectif est de conquérir un maximum d'îles grâce à des lancers de dés et à des systèmes de bonus et malus.",
     "technologies": ["Java", "Sérialisation", "ASCII Art"],
-    "image": "img/projects/pirattack.png",
-    "link": "/pirattack"
+    "image": "pirattack.png",
+    "demo": [
+      "1.png",
+      "2.png",
+      "3.png",
+      "4.png",
+      "5.png",
+      "6.png",
+      "7.png",
+      "8.png"
+    ],
+    "dirName": "pirattack",
+    "gh": "https://github.com/YannisDevos/Pirattack"
   },
   {
     "id": 9,
     "title": "Space Of Questions",
     "description": "Jeu ludopédagogique en mode terminal dans lequel l’utilisateur répond à des questions pour progresser, avec un nombre de vies limité, afin de faire décoller une fusée et partir à la conquête de l’espace. Plusieurs modes de jeu sont proposés : facile, moyen, difficile et mort subite. Création de compte en local (CSV) et leaderboard.",
     "technologies": ["Java", "CSV", "ASCII Art"],
-    "image": "img/projects/soq.png",
-    "link": "/spaceofquestions"
+    "image": "soq.png",
+    "demo": ["1.png", "2.png"],
+    "dirName": "soq",
+    "gh": "https://github.com/YannisDevos/SpaceOfQuestions"
   }
 ]
